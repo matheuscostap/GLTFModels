@@ -1,0 +1,191 @@
+{
+  "accessors": [
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001-Mesh_0_positions",
+      "componentType": 5126,
+      "count": 633,
+      "min": [
+        -2.638185977935791,
+        -7.815746784210205,
+        -17.735836029052734
+      ],
+      "max": [
+        -0.005249000154435635,
+        8.608161926269531,
+        7.100951194763184
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001-Mesh_0_normals",
+      "componentType": 5126,
+      "count": 633,
+      "min": [
+        -1,
+        -0.9994267821311951,
+        -0.9998671412467957
+      ],
+      "max": [
+        1,
+        0.9994783997535706,
+        0.9970078468322754
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001-Mesh_0_texcoords",
+      "componentType": 5126,
+      "count": 633,
+      "min": [
+        0.008565999567508698,
+        0.021560000255703926
+      ],
+      "max": [
+        0.9826470017433167,
+        0.9843220114707947
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 3264,
+      "min": [
+        0
+      ],
+      "max": [
+        632
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "frying_pan",
+      "byteLength": 26784,
+      "uri": "frying_pan.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 7596,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 7596,
+      "byteOffset": 7596,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 5064,
+      "byteOffset": 15192,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_3",
+      "buffer": 0,
+      "byteLength": 6528,
+      "byteOffset": 20256,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "name": "frying_pan",
+      "uri": "frying_pan.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "models\\weapons\\c_items\\c_frying_pan",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "c_frying_pan_reference_c_frying_pan_reference.001",
+      "mesh": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "frying_pan",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
